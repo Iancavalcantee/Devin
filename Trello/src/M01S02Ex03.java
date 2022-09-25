@@ -24,6 +24,43 @@ public class M01S02Ex03 {
 		 * ou 'saldo negativo', dependendo do resultado do saldo final calculado.
 		 */
 
+		int saldo = 0;
+		int[] extrato = { 100, -35, -15, -5, 55, -20 };
+
+		System.out.println("Alternativa a");
+
+		for (int i = 0; i < 6; i++) {
+
+			System.out.println(extrato[i]);
+
+		}
+
+		System.out.println("Alternativa b");
+		for (int i = 5; i >= 0; i--) {
+			System.out.println(extrato[i]);
+
+		}
+
+		System.out.println("Alternativa c");
+
+		for (int i = 0; i < 6; i++) {
+			saldo = saldo + extrato[i];
+			System.out.println("Operações realizadas " + saldo);
+		}
+		System.out.println("O saldo final da conta é: " + saldo);
+
+		// Imprima no console a mensagem 'saldo positivo'
+		// * ou 'saldo negativo', dependendo do resultado do saldo final calculado.
+
+		System.out.println("Alternativa d");
+		if (saldo >= 0) {
+			System.out.println("Saldo positivo");
+
+		} else {
+
+			System.out.println("Saldo negativo");
+		}
+
 	}
 
 }

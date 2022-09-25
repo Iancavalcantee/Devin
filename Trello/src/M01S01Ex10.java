@@ -9,6 +9,8 @@ public class M01S01Ex10 {
 
 	public static void main(String[] args) {
 
+		
+		System.out.println(data);
 		Date date = new Date();
 		System.out.println(date);
 
