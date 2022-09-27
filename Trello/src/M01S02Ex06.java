@@ -14,17 +14,15 @@ public class M01S02Ex06 {
 
 		for (int i = 0; i < lista1.length; i++) {
 
-			//List<Integer> lista3x = Arrays.asList(lista1[i] * 3);
-		 int x = lista1[i]* 3 ;
+			// List<Integer> lista3x = Arrays.asList(lista1[i] * 3);
+			int x = lista1[i] * 3;
 			List<Integer> lista3x = new ArrayList<>();
 			lista3x.add(x);
-			
+
 			System.out.println("lista3x: " + lista3x);
 
 		}
 
-		
-		
 	}
 
 }

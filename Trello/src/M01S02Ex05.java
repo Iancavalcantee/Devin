@@ -11,7 +11,7 @@ public class M01S02Ex05 {
 		System.out.println("Digite a quantidade de elementos: ");
 		int x = sc.nextInt();
 
-		int valor[] = new int[x];
+		int valor[] = new int[x]; // declaracao da array e respectivo tamanho
 		int maior = 0, menor = 999999999;
 
 		if (x == 1) {
@@ -25,6 +25,8 @@ public class M01S02Ex05 {
 				System.out.println("Digite o " + (i + 1) + " valor:");
 				valor[i] = sc.nextInt();
 
+				
+				
 				if (valor[i] > maior) {
 					maior = valor[i];
 
@@ -34,7 +36,9 @@ public class M01S02Ex05 {
 
 			for (int j = 0; j < valor.length; j++) {
 				if (valor[j] < menor) {
+					System.out.println(menor);
 					menor = valor[j];
+					System.out.println(menor);
 				}
 
 			}
