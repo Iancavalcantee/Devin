@@ -8,11 +8,9 @@ public class M01S02Ex08 {
 		// TODO Auto-generated method stub
 		// int[]lista = {0,2,88,56,33,42,67,3,9,0,2};
 
-		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Digite a quantidade de elementos: ");
-		int x = sc.nextInt();
 
+		int x = 0;
 		int valor[] = new int[x]; // declaracao da array e respectivo tamanho
 
 		int[] lista = new int[11];
@@ -32,21 +30,23 @@ public class M01S02Ex08 {
 
 		// List<Integer> numeros = Arrays.asList(0, 2, 88, 56, 33, 42, 67, 3, 9, 0, 2);
 
-		for (int i = 0; i < valor.length; i++) {
-			System.out.println("Digite o " + (i + 1) + " valor:");
-			valor[i] = sc.nextInt();
+		
+		
+		
+		
+		for (int i = 0; i < 11; i++) {
 
-			if (valor[i] < 50) {
+			if (valor[i] > 50) {
 				
-				
+				System.out.println("Sistema finalizado no "+ i + "posicao");
 
+				System.out.println(i);
+				
+				break;
+
+			} else {
 				
 				continue;
-			}else {
-				
-				System.out.println("Sistema finalizado no "+ (i+1) + "posicao");
-
-				System.out.println(i+1);
 			}
 
 		}

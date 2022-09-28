@@ -10,18 +10,21 @@ public class M01S02Ex06 {
 		// List<String> lista = new ArrayList<>();
 
 		// List<Integer> lista = Arrays.asList(1,2,3,4);
-		int[] lista1 = { 1, 2, 3, 4 };
+		int[] lista = { 1, 2, 3, 4 };
 
-		for (int i = 0; i < lista1.length; i++) {
+		List<Integer> lista3x = new ArrayList<>();
+
+		for (int i = 0; i < lista.length; i++) {
 
 			// List<Integer> lista3x = Arrays.asList(lista1[i] * 3);
-			int x = lista1[i] * 3;
-			List<Integer> lista3x = new ArrayList<>();
+			int x = (lista[i] * 3);
 			lista3x.add(x);
 
 			System.out.println("lista3x: " + lista3x);
 
 		}
+
+		System.out.println("lista3x: " + lista3x);
 
 	}
 
